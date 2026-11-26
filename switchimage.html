@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<img src = "Calendar.png" alt = "Clickable image" id = "calimage">
+	<script>
+
+	const imageElement = document.getElementById('calimage');
+	imageElement.addEventListener('click', function() {
+		if (imageElement.getAttribute('src') === 'Calendar.png') {
+			imageElement.src = 'Syllabus.png'
+		}
+		else {
+			imageElement.src = 'Calendar.png'
+		}
+	});
+	</script>
+
+</body>
+
+</html>
+
