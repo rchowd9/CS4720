@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Breed Carousel</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+        <div class = "carousel">
+            <h1>DogAPI Project</h1>
+            <form id = "breedSearch-form">
+                <input type = "text" id = "breed-input" placeholder = "Enter a dog breed (ex: 'labrador')">
+                <button type = "submit" id = "search-button">Search</button>
+            </form>
+
+            <h2 id = "breed-displayed"></h2> 
+            <div id = "error-message"></div>
+
+            <div id = "carousel-container"></div>
+
+            <p class = "tip"> For entering something like sub-breeds, use the 'hound/afghan' format. </p>
+        </div>
+
+
+    <script src = "script.js"></script>
+</body>
+</html>
+
