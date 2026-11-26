@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<style>
+			body {
+				padding: 25px;
+				background-color: white;
+				color: black;
+				font-size: 25px;
+			}
+
+			.dark-mode {
+				background-color: black;
+				color: white;
+			}
+		</style>
+
+		<script>
+			function myFunction() {
+				var element = document.body;
+				element.classList.toggle("dark-mode");
+			}
+		</script>
+	</head>
+	<body>
+		<h1> My Class Schedule </h1>
+		<table>
+			<caption> Spring 2026 classes </caption>
+			<tr>
+				<th> Class Name </th>
+				<th> Class Time </th>
+				<th> Representative Image </th>
+			</tr>
+			<tr>
+				<td> <a href="https://www.zybooks.com/">Internet and Webtech </a>
+				<td> M-W 11:40 am - 1:20 pm </td>
+				<td><img src="C:\Users\rchowd13\Downloads\web.jfif" alt="Image representation" width="150" height="100"></td>
+			</tr>
+		</table>
+
+		<br>
+		<button onclick="myFunction()">Dark Mode</button>
+	</body>
+</html>
