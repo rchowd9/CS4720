@@ -1,0 +1,22 @@
+body{
+	background-color: blue;
+
+}
+
+h1
+{
+	color: blue;
+	margin-left: 20px;
+}
+
+.base-table {
+    font-size: 20px;
+    border: 2px solid skyblue;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+.additional-table {
+	background-color: white;
+	color: darkblue;
+}

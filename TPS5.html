@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<title> My Class Schedule </title>
+<head>
+	<link rel="stylesheet" type="text/css" href="StyleTPS5.css"
+</head>
+<style>
+	table,th,td{
+		font-size: 20px;
+		border: 2px solid skyblue;
+	}
+	caption{
+		color:rgb(255,0,0);
+	}
+</style>
+<body>
+	<h1> My Class Schedule </h1>
+	<table class="base-table additional-table">
+		<caption> Spring 2026 classes </caption>
+		<tr>
+			<th> Class Name </th>
+			<th> Class Time </th>
+			<th> Representative Image </th>
+		</tr>
+		<tr>
+			<td> <a href= https://zybooks.com>Internet and Webtech </a></td>
+			<td> M-W 11:40am-1:20pm </td>
+			<td> <img title="Int WebTech Image" src="WebPic.png" alt="Image representation" width=150 height=100> </td>
+	</table>
+	<button id="myButton">
+		Dark Mode
+	</button>
+	<form action="https://httpbin.org/post" method="POST">
+   <p>
+      <label for="name">First Name:</label>
+      <input type="text" name="name" id="name">
+   </p>
+   <input type="submit">
+</form>
+	<script>
+	let ourButton= document.getElementById("myButton");
+	let isDarkMode = false;
+	ourButton.addEventListener("click", function() 
+		{ if (isDarkMode)
+		  {
+		  	document.body.style.backgroundColor = "white";
+		  	document.body.style.color ="black";
+		  }
+		  else
+		  {
+		  	document.body.style.backgroundColor = "black";
+		  	document.body.style.color ="white";
+		  }
+		  isDarkMode = !isDarkMode;
+		});
+</script>
+
+
+</body>
+</html>
